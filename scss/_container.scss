@@ -1,0 +1,49 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width:760px) {
+
+    ul li,
+    #select {
+        display: none;
+    }
+
+    .icons {
+        display: block;
+    }
+
+    .icon {
+        width: 34px;
+        height: 4px;
+    }
+
+    .text h1 {
+        font-size: 32px;
+        padding: 62px 0px;
+    }
+
+    .card {
+        margin: 0 auto;
+        column-gap: 40px;
+
+
+    }
+
+    footer {
+        .footer {
+            margin: 0 auto;
+
+         
+
+        }
+    }
+
+
+
+
+
+
+}

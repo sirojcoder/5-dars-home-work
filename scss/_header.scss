@@ -1,0 +1,113 @@
+header{
+        background-image: url(../images/bg.jpg);
+        height: 1024px;
+        background-repeat: no-repeat;
+       background-size: cover;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    ul{
+        display: flex;
+        gap: 50px;
+        #select{
+            background: none;
+            color: white; 
+            border: none;
+        }
+      .icons{
+        display: none;
+        flex-direction: column;
+        gap: 6px;
+
+        
+        .icon{
+            width: 3;
+            height: px;
+            background: white;
+        }
+      }
+        li{
+            
+            a{
+                text-decoration: none;
+                color: white; 
+                font-size: 18px;
+            }
+          
+        }
+    }
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    height: 700px;
+    font-size: 20px;
+
+gap: 8px;
+    .btn{
+        padding: 10px;
+        width: 150px;
+        background-color: #114E86;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+}
+.text-2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 72px 0;
+    max-width: 1140px;
+}
+.text-3{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    .card{
+        width: 330px;
+        border: 1px solid black ;
+        padding: 18px;
+        border-radius: 6px;
+        flex-wrap: wrap;
+        .price{
+            display: flex;
+            justify-content: end;
+            margin-top: 18px;
+            color: #114E86;
+            font-weight: 600;
+        }
+        .images{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 12px;
+        }
+        .info-1{
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+    }
+}
+.card:hover{
+    background: #114E86;
+    color: white;
+}
+.card:hover .price{
+    color: white;
+}
+
